@@ -12,8 +12,9 @@ public class Palindrome {
             
         	rev = rev+str.charAt(i);
         }
-        
+        System.out.println("Let's see whether the string is palindrome or not!!!");
         if(str.equals(rev)) {
+    
         	System.out.println(str+" is a palindrome"); //str is a palindrome
         }
         else {
